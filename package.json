@@ -21,7 +21,7 @@
     "ci:lint": "pnpm -r --parallel lint",
     "ci:stylelint": "pnpm -r --parallel stylelint",
     "ci:test": "pnpm -r --parallel test:ci",
-    "inject:env": "node sh/injectEnv.js"
+    "inject:env": "node sh/injectEnv.cjs"
   },
   "devDependencies": {
     "@changesets/cli": "^2.25.0",
